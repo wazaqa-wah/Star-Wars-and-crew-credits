@@ -16,6 +16,7 @@ import json
 #(2019) 9 The Rise of Skywalker: tt2527338
 
 
+
 url = "https://www.imdb.com/title/tt2527338/fullcredits/?ref_=tt_cl_sm"
 
 r = requests.get(url)
@@ -97,3 +98,4 @@ else:
 
 
 json.dump(IX_data,open('IX_data.json','w'),indent=2)
+
